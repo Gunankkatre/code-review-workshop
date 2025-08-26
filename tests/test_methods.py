@@ -1,4 +1,6 @@
-from src.mathops import add
+from src.mathops import multiply
 
 def test_add():
-    assert add(2, 3) == 5
+    assert multiply(2, 3) == 6
+    assert multiply(-1, 5) == -5
+    assert multiply(0, 10) == 0
